@@ -35,9 +35,9 @@ from diffusers import StableDiffusionPipeline, DPMSolverMultistepScheduler
 import torch
 
 prompt = (
-"modelshoot style, (extremely detailed CG unity 8k wallpaper), full shot body photo of the most beautiful artwork in the world,"
-"english medieval witch, black silk vale, pale skin, black silk robe, black cat, necromancy magic, medieval era,"
-"photorealistic painting by Ed Blinkey, Atey Ghailan, Studio Ghibli, by Jeremy Mann, Greg Manchess, Antonio Moro, trending on ArtStation,"
+"modelshoot style, (extremely detailed CG unity 8k wallpaper), full shot body photo of the most beautiful artwork in the world, "
+"english medieval witch, black silk vale, pale skin, black silk robe, black cat, necromancy magic, medieval era, "
+"photorealistic painting by Ed Blinkey, Atey Ghailan, Studio Ghibli, by Jeremy Mann, Greg Manchess, Antonio Moro, trending on ArtStation, "
 "trending on CGSociety, Intricate, High Detail, Sharp focus, dramatic, photorealistic painting art by midjourney and greg rutkowski"
 )
 
