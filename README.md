@@ -20,8 +20,7 @@ Version 3.4 continued training from [ProtoGen v2.2](https://huggingface.co/darks
 ## Space
 
 We support a [Gradio](https://github.com/gradio-app/gradio) Web UI to run dreamlike-diffusion-1.0:
-[![Open In Spaces](https://camo.githubusercontent.com/00380c35e60d6b04be65d3d94a58332be5cc93779f630bcdfc18ab9a3a7d3388/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f25463025394625413425393725323048756767696e67253230466163652d5370616365732d626c7565)](https://huggingface.co/spaces/akhaliq/dreamlike-diffusion-1.0)
-
+[![Open In Spaces](https://camo.githubusercontent.com/00380c35e60d6b04be65d3d94a58332be5cc93779f630bcdfc18ab9a3a7d3388/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f25463025394625413425393725323048756767696e67253230466163652d5370616365732d626c7565)](https://huggingface.co/spaces/darkstorm2150/Stable-Diffusion-Protogen-webui)
 ### CompVis
 
 [Download ProtoGen_X3.4.ckpt) (5.98GB)](https://huggingface.co/darkstorm2150/Protogen_x3.4_Official_Release/blob/main/ProtoGen_X3.4.ckpt)
@@ -32,7 +31,7 @@ This model can be used just like any other Stable Diffusion model. For more info
 please have a look at the [Stable Diffusion Pipeline](https://huggingface.co/docs/diffusers/api/pipelines/stable_diffusion).
 
 ```python
-from diffusers import StableDiffusionPipeline
+from diffusers import StableDiffusionPipeline, DPMSolverMultistepScheduler
 import torch
 
 prompt = (
@@ -44,9 +43,10 @@ prompt = (
 
 model_id = "darkstorm2150/Protogen_x3.4_Official_Release"
 pipe = StableDiffusionPipeline.from_pretrained(model_id, torch_dtype=torch.float16)
+pipe.scheduler = DPMSolverMultistepScheduler.from_config(pipe.scheduler.config)
 pipe = pipe.to("cuda")
 
-image = pipe(prompt).images[0]
+image = pipe(prompt, num_inference_steps=25).images[0]
 
 image.save("./result.jpg")
 ```
