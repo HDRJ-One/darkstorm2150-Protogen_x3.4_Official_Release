@@ -17,6 +17,9 @@ license: creativeml-openrail-m
 Protogen was warm-started with [Stable Diffusion v1-5](https://huggingface.co/runwayml/stable-diffusion-v1-5) and fine-tuned on various high quality image datasets.
 Version 3.4 continued training from [ProtoGen v2.2](https://huggingface.co/darkstorm2150/Protogen_v2.2_Official_Release) with added photorealism.
 
+## Model Weights
+![alt text](https://huggingface.co/darkstorm2150/Protogen_v2.2_Official_Release/resolve/main/Model%20Weights.jpg)
+
 ## Space
 
 We support a [Gradio](https://github.com/gradio-app/gradio) Web UI:
