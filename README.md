@@ -18,7 +18,7 @@ Protogen was warm-started with [Stable Diffusion v1-5](https://huggingface.co/ru
 Version 3.4 continued training from [ProtoGen v2.2](https://huggingface.co/darkstorm2150/Protogen_v2.2_Official_Release) with added photorealism.
 
 ## Model Weights
-![alt text](https://huggingface.co/darkstorm2150/Protogen_v2.2_Official_Release/resolve/main/Model%20Weights.jpg)
+![alt text](https://huggingface.co/darkstorm2150/Protogen_x3.4_Official_Release/resolve/main/Model%20Weights.png)
 
 ## Space
 
