@@ -3,7 +3,7 @@
   "_diffusers_version": "0.12.0.dev0",
   "feature_extractor": [
     "transformers",
-    "CLIPImageProcessor"
+    "CLIPFeatureExtractor"
   ],
   "requires_safety_checker": true,
   "safety_checker": [

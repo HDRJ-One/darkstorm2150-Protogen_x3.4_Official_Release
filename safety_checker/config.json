@@ -80,7 +80,7 @@
     "top_p": 1.0,
     "torch_dtype": null,
     "torchscript": false,
-    "transformers_version": "4.25.1",
+    "transformers_version": "4.26.0.dev0",
     "typical_p": 1.0,
     "use_bfloat16": false,
     "vocab_size": 49408
@@ -167,7 +167,7 @@
     "top_p": 1.0,
     "torch_dtype": null,
     "torchscript": false,
-    "transformers_version": "4.25.1",
+    "transformers_version": "4.26.0.dev0",
     "typical_p": 1.0,
     "use_bfloat16": false
   },
