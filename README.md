@@ -31,7 +31,7 @@ license: creativeml-openrail-m
 * [License](#license)
 
 ## General info
-Protogen_x3.4
+Protogen x3.4
 
 Protogen was warm-started with [Stable Diffusion v1-5](https://huggingface.co/runwayml/stable-diffusion-v1-5) and fine-tuned on various high quality image datasets.
 Version 3.4 continued training from [ProtoGen v2.2](https://huggingface.co/darkstorm2150/Protogen_v2.2_Official_Release) with added photorealism.
@@ -54,7 +54,7 @@ We support a [Gradio](https://github.com/gradio-app/gradio) Web UI:
 
 ### CompVis
 
-[Download ProtoGen_X3.4.ckpt) (5.98GB)](https://huggingface.co/darkstorm2150/Protogen_x3.4_Official_Release/blob/main/ProtoGen_X3.4.ckpt)
+[Download ProtoGen x3.4.ckpt (5.98GB)](https://huggingface.co/darkstorm2150/Protogen_x3.4_Official_Release/blob/main/ProtoGen_X3.4.ckpt)
 
 ### 🧨 Diffusers
 
