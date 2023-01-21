@@ -12,7 +12,7 @@ tags:
 inference: true
 license: creativeml-openrail-m
 ---
-<center><img src="https://huggingface.co/darkstorm2150/Protogen_x3.4_Official_Release/resolve/main/Protogen_x3.4-512.png" style="height:512px; border-radius: 8%; border: 10px solid #663380; padding-top:0px;" span title="Protogen x3.4 Raw Output"></center>
+<center><img src="https://huggingface.co/darkstorm2150/Protogen_x3.4_Official_Release/resolve/main/Protogen_x3.4-512.png" style="height:690px; border-radius: 8%; border: 10px solid #663380; padding-top:0px;" span title="Protogen x3.4 Raw Output"></center>
 
 
 
