@@ -45,7 +45,7 @@ Granular adaptive learning can be achieved through techniques such as active lea
 Granular adaptive learning is often used in situations where the data is highly diverse or non-stationary and where the model needs to adapt quickly to changing patterns. This is often the case in dynamic environments such as robotics, financial markets, and natural language processing.
 
 ## Setup
-To run this model, download the model.ckpt and install it in your "stable-diffusion-webui\models\Stable-diffusion" directory
+To run this model, download the model.ckpt or model.safetensor and install it in your "stable-diffusion-webui\models\Stable-diffusion" directory
 
 ## Space
 
