@@ -16,7 +16,7 @@ license: creativeml-openrail-m
 
 
 
-<center><h1>Protogen x3.4</h1></center>
+<center><h1>Protogen x3.4 (Photorealism) Official Release</h1></center>
 <center><p><em>Research Model by <a href="https://instagram.com/officialvictorespinoza">darkstorm2150</a></em></p></center>
 </div>
 
