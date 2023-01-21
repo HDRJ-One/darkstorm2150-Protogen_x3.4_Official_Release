@@ -54,7 +54,16 @@ We support a [Gradio](https://github.com/gradio-app/gradio) Web UI:
 
 ### CompVis
 
-[Download ProtoGen x3.4.ckpt (5.98GB)](https://huggingface.co/darkstorm2150/Protogen_x3.4_Official_Release/blob/main/ProtoGen_X3.4.ckpt)
+## CKPT
+[Download ProtoGen x3.4.ckpt (5.98GB)](https://huggingface.co/darkstorm2150/Protogen_x3.4_Official_Release/resolve/main/ProtoGen_X3.4.ckpt)
+
+[Download ProtoGen X3.4-pruned-fp16.ckpt (1.89 GB)](https://huggingface.co/darkstorm2150/Protogen_x3.4_Official_Release/resolve/main/ProtoGen_X3.4-pruned-fp16.ckpt)
+
+## Safetensors
+[Download ProtoGen x3.4.safetensors (5.98GB)](https://huggingface.co/darkstorm2150/Protogen_x3.4_Official_Release/resolve/main/ProtoGen_X3.4.safetensors)
+
+[Download ProtoGen x3.4-pruned-fp16.safetensors (1.89GB)](https://huggingface.co/darkstorm2150/Protogen_x3.4_Official_Release/resolve/main/ProtoGen_X3.4-pruned-fp16.safetensors)
+
 
 ### 🧨 Diffusers
 
