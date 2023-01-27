@@ -23,6 +23,7 @@ license: creativeml-openrail-m
 ## Table of contents
 * [General info](#general-info)
 * [Granular Adaptive Learning](#granular-adaptive-learning)
+* [Trigger Words](#trigger-words)
 * [Setup](#setup)
 * [Space](#space)
 * [CompVis](#compvis)
@@ -43,6 +44,10 @@ Granular adaptive learning is a machine learning technique that focuses on adjus
 Granular adaptive learning can be achieved through techniques such as active learning, which allows the model to select the data it wants to learn from, or through the use of reinforcement learning, where the model receives feedback on its performance and adapts based on that feedback. It can also be achieved through techniques such as online learning where the model adjust itself as it receives more data.
 
 Granular adaptive learning is often used in situations where the data is highly diverse or non-stationary and where the model needs to adapt quickly to changing patterns. This is often the case in dynamic environments such as robotics, financial markets, and natural language processing.
+
+## Trigger Words
+
+modelshoot style, analog style, mdjrny-v4 style, nousr robot
 
 ## Setup
 To run this model, download the model.ckpt or model.safetensor and install it in your "stable-diffusion-webui\models\Stable-diffusion" directory
