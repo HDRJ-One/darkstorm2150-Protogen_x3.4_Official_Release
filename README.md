@@ -49,6 +49,8 @@ Granular adaptive learning is often used in situations where the data is highly 
 
 modelshoot style, analog style, mdjrny-v4 style, nousr robot
 
+Trigger words are available for the hassan1.4 and f222, might have to google them :)
+
 ## Setup
 To run this model, download the model.ckpt or model.safetensor and install it in your "stable-diffusion-webui\models\Stable-diffusion" directory
 
