@@ -12,7 +12,7 @@ tags:
 inference: true
 license: creativeml-openrail-m
 ---
-<center><img src="https://huggingface.co/darkstorm2150/Protogen_x3.4_Official_Release/resolve/main/Protogen_x3.4-512.png" style="height:690px; border-radius: 8%; border: 10px solid #663380; padding-top:0px;" span title="Protogen x3.4 Raw Output"></center>
+<center><img src="https://banner2.cleanpng.com/20180529/jw/kisspng-vivo-home-business-phones-internet-mobile-phones-vivo-5b0dbbf7b373b7.567176131527626743735.jpg" style="height:690px; border-radius: 8%; border: 10px solid #663380; padding-top:0px;" span title="Protogen x3.4 Raw Output"></center>
 
 
 
